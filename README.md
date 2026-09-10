@@ -7,10 +7,13 @@ A lightweight Slack bot.
 
 ## Features
 
-- **/slackyyy-bot-ping** — Checks bot response latency.
-- **/slackyyy-bot-help** — Lists all available slash commands.
-- **/slackyyy-bot-catfact** — Fetches a random cat fact using the Cat Facts API.
-- **/slackyyy-bot-joke** — Fetches a random joke using the Official Joke API.
+- `/slackyyy-bot-ping` — Checks bot response latency.
+- `/slackyyy-bot-help` — Lists all available slash commands.
+- `/slackyyy-bot-catfact` — Fetches a random cat fact using the Cat Facts API.
+- `/slackyyy-bot-joke` — Fetches a random joke using the Official Joke API.
+- `/slackyyy-bot-encrypt` — Encodes a plain text message into Base64 format.
+- `/slackyyy-bot-decrypt` — Decodes a Base64 encoded string back into plain text.
+- `/slackyyy-bot-flip` — Flips a virtual coin for quick 50/50 decisions.
 
 ---
 
@@ -50,10 +53,13 @@ A lightweight Slack bot.
      - `commands`
    - Install the app to your workspace to generate the **Bot User OAuth Token** (`xoxb-...`).
    - Under **Features > Slash Commands**, register the following commands:
-     - `/slackyyy-bot-ping`
-     - `/slackyyy-bot-help`
-     - `/slackyyy-bot-catfact`
-     - `/slackyyy-bot-joke`
+    - `/slackyyy-bot-ping` — Checks bot response latency.
+    - `/slackyyy-bot-help` — Lists all available slash commands.
+    - `/slackyyy-bot-catfact` — Fetches a random cat fact using the Cat Facts API.
+    - `/slackyyy-bot-joke` — Fetches a random joke using the Official Joke API.
+    - `/slackyyy-bot-encrypt` — Encodes a plain text message into Base64 format.
+    - `/slackyyy-bot-decrypt` — Decodes a Base64 encoded string back into plain text.
+    - `/slackyyy-bot-flip` — Flips a virtual coin for quick 50/50 decisions.
 
 ---
 
